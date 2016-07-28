@@ -5,15 +5,12 @@
 
 -----------
 
->配置详解
->>
-<!-- 配置生成器 -->
+>><!-- 配置生成器 -->
 <generatorConfiguration>
     <!-- 可以用于加载配置项或者配置文件，在整个配置文件中就可以使用${propertyKey}的方式来引用配置项
         resource：配置资源加载地址，使用resource，MBG从classpath开始找，比如com/myproject/generatorConfig.properties
         url：配置资源加载地质，使用URL的方式，比如file:///C:/myfolder/generatorConfig.properties.
         注意，两个属性只能选址一个;
-
         另外，如果使用了mybatis-generator-maven-plugin，那么在pom.xml中定义的properties都可以直接在generatorConfig.xml中使用
     <properties resource="" url="" />
      -->
