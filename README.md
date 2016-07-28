@@ -5,7 +5,7 @@
 
 -----------
 
->><!-- 配置生成器 -->
+>>
 <generatorConfiguration>
     <!-- 可以用于加载配置项或者配置文件，在整个配置文件中就可以使用${propertyKey}的方式来引用配置项
         resource：配置资源加载地址，使用resource，MBG从classpath开始找，比如com/myproject/generatorConfig.properties
