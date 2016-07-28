@@ -3,6 +3,8 @@
 ####1.修改generatorConfig.xml配置文件信息
 ####2.用maven插件运行 mybatis-generator:generate -e即可
 
+-----------
+
 >配置详解
 >>
 <!-- 配置生成器 -->
